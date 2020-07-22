@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> This, too, shall pass... </title>
+    <link rel="stylesheet" href="./GeneratorStyleSheet.css">
+  </head>
+  <body>
+    <div id="bigContainer">
+      <h1>Relax... </h1>
+      <div id="quote-container">
+        <!-- quote -->
+        <p id = "quote"> With all that is going on around us lately, it is easy to feel overwhelmed and stressed.
+          <br> No matter who you are, where you come from, or what you're going through right now, I hope this gives you a piece of comfort.
+        </p>
+      </div>
+      <div id="author-container">
+        <!-- author -->
+        <p id="author"></p>
+      </div>
+      <div id="button-container">
+        <button type="button" id=newQuoteButton> Click me </button>
+      </div>
+    </div>
+
+    <div id="soundsContainer">
+      <p> Calming sounds: </p>
+        <!-- sound icons -->
+      <img src="./sound_icons/bird.png" alt="birds" id="birdIcon">
+      <img src="./sound_icons/thunder.png" alt="thunder" id="thunderIcon">
+      <img src="./sound_icons/rain.png" alt="rain" id="rainIcon">
+      <img src="./sound_icons/off.png" alt="mute sound" id="muteIcon">
+        <!-- sound audio -->
+      <audio id="birdSounds" loop>
+        <source src="./sound_files/Sounds-of-spring.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="thunderSounds" loop>
+        <source src="./sound_files/thunder-sounds.mp3" type="audio/mpeg">
+      </audio>
+      <audio id="rainSounds" loop>
+        <source src="./sound_files/rain-sounds.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <footer>
+        Icons made with <a href="https://iconsflow.com/" target="_blank">IconsFlow</a>
+        <br> Sounds from <a href="http://www.orangefreesounds.com/" target="_blank">Orange Free Sounds</a>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="./GeneratorFunctionalityScript.js"></script>
+</html>
